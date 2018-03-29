@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="img/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" scr="cordova.js"></script>
+	<title>Exercice 5 - TP2</title>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<img src="img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Concerts</a></li>
+				<li><a href="#">Contact</a></li>
+				<input type="search" placeholder="Recherche">
+			</ul>	
+		</nav>
+	</header>
+
+	<div id="banniere">
+		<img src="img/banniere.png">
+	</div>
+
+	<div id="content">
+		<div id="intro">
+			<h1>Derniers projets sortis :</h1>
+			<p>Dans cette section on vous présente les projets les plus récents.</p>
+		</div>
+		
+		<div id="sec">
+			<ul>
+				<li><img src="img/weedim.jpg"><h1>DJ Weedim : Boulangerie Française, Vol.2</h1><p><a href="https://open.spotify.com/album/4ZG6uhIQQBzNpHO1fh0cKS">Écouter ici</a></p></li><li><img src="img/romeoelvis.jpg"><h1>Roméo Elvis x Le Motel : Morale 2Luxe</h1><p><a href="https://open.spotify.com/album/01uhkrTatcxTAXNzlFGY9P">Écouter ici</a></p></li>
+				<li><img src="img/rejjie.jpg"><h1>Rejjie Snow : Dear Annie</h1><p><a href="https://open.spotify.com/album/6AT38pwdn5wky7LxE4KLUn">Écouter ici</a></p></li><li><img src="img/vald.jpg"><h1>Vald : Xeu</h1><p><a href="https://open.spotify.com/album/47YsrfGhC6kPodkCVJGWvV">Écouter ici</a></p></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="content2">
+		<div id="map">
+			<h2>Prochain concert :</h2>
+			<iframe frameborder="0" style="border:0" src="https://www.google.fr/maps/d/embed?mid=1y3Mpa5h5KHOl6fpO7GDxOv0V98gxAM16" width="640" height="480"></iframe>
+		</div>
+
+		<div id="form">
+			<h2>Nous contacter :</h2>
+			<form method="post">
+				<input type="text" id="prenom" class="formu" name="prenom" placeholder="Prénom"/>
+				<input type="text" id="nom" class="formu" name="nom" placeholder="Nom"/>
+				<label for="naissance">Date de naissance : </label>
+				<input type="date" id="naissance" class="formu" name="naissance"/>
+				<input type="text" id="vilnai" class="formu" name="vilnai" placeholder="Ville de naissance"/>
+				<input type="email" id="mail" name="mail" placeholder="Adresse email"/>
+				<label class="photo" for="photo">Photo :</label>
+				<input type="file" class="photo" name="photo"/>
+				<textarea rows="8" cols="30" name="message" id="message" placeholder="Message"></textarea>
+				<input type="submit" id="envoyer" name="envoyer" value="Envoyer">
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<p>LAROCHE Lucas - TPC</p>
+	</footer>
+</body>
+</html>

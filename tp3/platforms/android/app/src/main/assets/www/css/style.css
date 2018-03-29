@@ -1,0 +1,259 @@
+body{
+    font-family: 'Arial', serif;
+    background-color: #FAEBD7;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+header{
+    width: 100%;
+    border-bottom: solid 2px black;
+}
+
+#logo{
+    display: inline-block;
+    width:50%; 
+}   
+
+header #logo img{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 25%;
+}
+
+nav{
+    margin-right: 15px;
+    text-align: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
+#banniere img{
+    height: 380px;
+    margin-top: 15px;
+    width: 100%
+}
+
+#content{
+    padding: 10px;
+}
+
+#sec{
+    vertical-align: top;
+    text-align: center;
+}
+
+#sec h1{
+    font-size: 18px;
+}
+
+#sec a{
+    text-decoration: underline;
+    text-align: left;
+}
+
+#sec ul{
+    width: 100%
+}
+
+#sec ul li{
+    display: inline-block;
+    width: 24.9%
+}
+
+#sec ul li img{
+    height: 200px;
+    width: 200px;
+}
+
+#content2{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#map{
+    width: 49%;
+    display: inline-block;
+    border-right: solid 1px black;
+}
+
+#map h2{
+    padding-left: 13%;
+}
+
+#map iframe{
+    width: 75%;
+    margin-bottom: 2.5rem;
+    margin-left: 5rem;
+}
+
+#form{
+    float: right;
+    height: 100%;
+    width: 33%;
+    padding-right: 13%;
+}
+
+#form form input{
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+#mail{
+    width: 89%;
+}
+
+#vilnai{
+    width: 89%;
+}
+
+.photo{
+    display: inline-block;
+    width: 100%;
+}
+
+.formu{
+    width: 40%;
+}
+
+#envoyer{
+    margin-left: 80%;
+}
+
+#message{
+    display: block;
+    margin: 1rem;
+    width: 89%;
+}
+
+#footer{
+    display: block;
+    width: 100%;
+    border-top: solid 1px black;
+    margin: 0;
+    height: 3.2rem;
+}
+
+#footer p{
+    vertical-align: middle;
+    text-align: right;
+    color: white;
+    margin-right: 5rem;
+}
+
+@media(-webkit-min-device-pixel-ratio:2){}
+
+@media only screen and (max-device-width:640px){
+    header{
+        position: initial;
+    }
+
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header input{
+        display: none;
+    }
+
+    #sec{
+        height: 80rem;
+    }
+
+    #sec ul li{
+        display: block;
+        width: 100%;
+    }
+
+    #content2{
+        display: block;
+        height: 75rem;
+    }
+
+    #map{
+        width: 100%;
+    }
+
+    #map iframe{
+        margin-left: 2.5rem;
+        margin-bottom: 0rem;
+    }
+
+    #form{
+        width: 100%;
+        padding-right: 0%;
+        height: 50%;
+    }
+
+    #form form input{
+        width: 90%;
+    }
+
+    #message{
+        width: 88%;
+    }
+}
+
+@media only screen and (min-device-width:650px) and (max-device-width:1024px){
+    header img{
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+
+    #sec{
+        height: 40rem;
+    }
+
+    #sec ul li{
+        width: 49%;
+    }
+
+    #form form input{
+        width: 90%;
+    }
+
+    #message{
+        width: 88%;
+    }
+}
